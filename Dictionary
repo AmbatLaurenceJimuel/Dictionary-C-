@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	  string search;
+	  cout<<"choose a character in One Piece: ";
+	  cin>>search;
+	  
+	  if (search == "Luffy"){
+	  	cout<<"The man who will be king of the pirates";
+	  }
+	  else if (search == "Zoro"){
+	   	cout<<"The pirate hunter";
+	  }
+	  else if (search == "Sanji"){
+	  	cout<<"The black leg";
+	  }
+	  else if (search == "Nami"){
+	  	cout<<"The cat bulgar";
+	  }
+	  else if (search == "Chopper"){
+	  	cout<<"The cotton candy lover";
+	  }
+	  else if (search == "Robin"){
+	  	cout<<"The light of revolution";
+	  }
+	  else  {
+	  	cout<<"You aint a one piece fan";
+	  }
+return 0;	
+}
